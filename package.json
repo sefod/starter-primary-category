@@ -1,0 +1,22 @@
+{
+	"name": "wordpress-plugin-template",
+	"title": "WordPress Plugin Template",
+	"version": "1.0.0",
+	"homepage": "https://github.com/hlashbrooke/WordPress-Plugin-Template",
+	"main": "build/index.js",
+	"dependencies": {
+		"@wordpress/blocks": "^8.0.0",
+		"@wordpress/i18n": "^3.19.0"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^14.0.0"
+	},
+	"scripts": {
+		"build": "wp-scripts build",
+		"format:js": "wp-scripts format-js",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"start": "wp-scripts start",
+		"packages-update": "wp-scripts packages-update"
+	}
+}
